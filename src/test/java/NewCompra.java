@@ -66,44 +66,10 @@ public class NewCompra {
         WebElement cart = firefoxDriver.findElement(By.xpath("//*[@id='center_column']/ul/li/div/div[1]/div/a[1]/img"));
         cart.click();
 
-//
-
-        //Hacemos click en el primer boton para cerrar compra
+//       //Hacemos click en el primer boton para cerrar compra
         firefoxDriver.findElement(By.xpath("//span[contains(text(),'Add to cart')]")).click();
-        //btnCerrarCompra.click();
 
 
-
-        //button.exclusive > span:nth-child(1)
-
-//        //Hacemos click en el segundo boton para cerrar compra
-//        WebElement botonSegundoCerrarCompra = firefoxDriver.findElement(By.xpath("//p//*[contains(text(),'Proceed to checkout')]"));
-//        botonSegundoCerrarCompra.click();
-
-//        //Hacemos click en el tercer boton para cerrar compra
-//        WebElement botonTercerCerrarCompra = firefoxDriver.findElement(By.xpath("//button/span[contains(text(),'Proceed to checkout')]"));
-//        botonTercerCerrarCompra.click();
-
-//        //Hacemos click en el checkbox de aceptar las condiciones
-//        WebElement checkboxAceptoLasCondiciones = firefoxDriver.findElement(By.cssSelector("#cgv"));
-//        checkboxAceptoLasCondiciones.click();
-
-//        //Hacemos click en el cuarto boton para cerrar compra
-//        WebElement botonCuartoCerrarCompra = firefoxDriver.findElement(By.xpath("//button[@name='processCarrier']//span[contains(text(),'Proceed to checkout')]"));
-//        botonCuartoCerrarCompra.click();
-
-//
-//        //Hacemos click en el boton pagar con cheque
-//        WebElement botonPagarConCheque = firefoxDriver.findElement(By.cssSelector(".cheque"));
-//        botonPagarConCheque.click();
-//
-//        //Confirmamos la orden
-//        WebElement botonConfirmarOrden = firefoxDriver.findElement(By.xpath("//*[contains(text(),'I confirm my order')]"));
-//        botonConfirmarOrden.click();
-//
-//        //Acertamos el banner de orden completa
-//        WebElement bannerOrdenCompleta = firefoxDriver.findElement(By.className("alert"));
-//        Assert.assertTrue(bannerOrdenCompleta.isDisplayed());
     }
 
     @After
